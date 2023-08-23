@@ -9,7 +9,7 @@
  */
 void _push(stack_t **, unsigned int line_number)
 {
-	size_t len = 0, i =0;
+	size_t len = 0, i = 0;
 	char arg[128] = "";
 	char *argument = arg;
 
@@ -50,7 +50,7 @@ void _push(stack_t **, unsigned int line_number)
 void add_node(stack_t **stack, int argument)
 {
 	stack_t *new_node = NULL;
-	
+
 	new_node = malloc(sizeof(stack_t));
 	if (new_node == NULL)
 	{
